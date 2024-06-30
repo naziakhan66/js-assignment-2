@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+
+    //Q1
+
+    var firstRow=[1,2,]
+    var secondRow=[4,3,]
+    var thirdRow=[1,0,]
+     var fourthRow=[1,3]
+   for ( i = 0; i <firstRow.length; i++) {
+  for ( j = 0; j <secondRow.length; j++) {
+    for(k=0;   k<thirdRow.length;k++){
+        for(l=0;l<fourthRow.length;l++){
+document.write(firstRow[i] + " " + secondRow[j]+ " " +thirdRow[k]+ " " +fourthRow[l]+"<br>");
+break;
+        }
+
+    }
+  }
+}
+
+//Q2
+
+var number=[1,2,3,4,5,6,7,8,9,10]
+
+for(i=0;i<number.length;i++){
+    document.write(number[i]+"<br>")
+
+}
+
+
+//Q3
+
+var number=prompt("enter the number for table")
+var length=prompt("enter the length of table")
+
+for(i=1;i<=length;i++){
+document.write(number+"x"+i+"="+number*i+"<br>")
+}
+
+//Q4
+
+var fruitsName=["mango","orange","grapes","strawberry"]
+
+
+for(i=0;i<fruitsName.length;i++){
+    document.write(fruitsName[i]+"<br>")
+
+}
+
+//Q5
+//a
+//counting
+
+var counting=[1,2,3,4,5,6,7,8,9,10]
+for(i=0;i<counting.length;i++){
+    document.write(counting[i])
+
+}
+ var blank=""
+ document.write(blank+"<br>")
+
+//b
+
+var counting1=[1,2,3,4,5,6,7,8,9,10]
+counting1.reverse()
+for(i=1;i<counting1.length;i++){
+    document.write(counting1[i])
+}
+
+var blank=""
+ document.write(blank+"<br>")
+
+
+//c even numbers
+var counting1=[1,2,3,4,5,6,7,8,9,10]
+for(i=0;i<counting1.length;i++){
+    if(i%2==0){
+        document.write(i)
+
+    }
+
+}
+
+var blank=""
+ document.write(blank+"<br>")
+
+
+ //d odd numbers
+
+ var counting1=[1,2,3,4,5,6,7,8,9,10]
+for(i=0;i<counting1.length;i++){
+    if(i%2!==0){
+        document.write(i)
+
+    }
+
+}
+
+
+
+//Q6
+
+
+var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// Get user input
+var searchItem = prompt("Enter an item to search:");
+
+// Search for the item in the array
+var foundIndex = -1;
+for (let i = 0; i < bakery.length; i++) {
+    if (bakery[i] === searchItem) {
+        foundIndex = i;
+        break;
+    }
+}
+
+// Alert the user whether the item is found or not
+if (foundIndex !== -1) {
+    alert(`${searchItem} is found in the list at index ${foundIndex}.`);
+} else {
+    alert(`${searchItem} is not found in the list.`);
+}
+
+
+//Q7
+//finding largest number
+
+var A = [24, 53, 78, 91, 12];
+
+
+var largestNumber = Math.max(...A);
+
+
+alert(`The largest number in the array is ${largestNumber}.`);
+
+//Q8 
+//smallest number
+var A = [24, 53, 78, 91, 12];
+
+
+var smallestNumber = Math.min(...A);
+
+
+alert(`The smallest number in the array is ${smallestNumber}.`);
+
+var blank=""
+ document.write(blank+"<br>")
+
+
+//Q9
+
+for (var i = 1; i <= 100; i++) {
+    if (i % 5 === 0) {
+        document.write(i+" ");
+    }
+}
+
+
+
+  </script>  
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(18, 10, 10);
+    width: 600px;
+    height: 20vh;
+}
+
+#a1{
+   text-decoration: none;
+   font-size: xx-large; 
+   border: 5px;
+   
+   margin-left: 50px;
+padding-top: 10px;
+/* box-shadow: inset 0 0 10px; */
+margin-top: 5px;
+flex-direction: column; 
+padding: 20px;
+
+
+
+}
+#a2{
+    text-decoration: none;
+    font-size: xx-large; 
+    border: 5px;
+    padding: 20px;
+    margin-left: 50px;
+ 
+ 
+flex-direction: column;
+/* margin-top: 60px; */
+ /* box-shadow: inset 0 0 10px; */
+ /* margin-top: 200px;} */}
+ #a3{
+    text-decoration: none;
+    font-size: xx-large; 
+    border: 5px;
+    padding: 20px;
+    margin-left: 50px;
+ 
+ 
+flex-direction: column;
+ /* box-shadow: inset 0 0 10px; */
+ /* margin-top: 200px;} */}
+ #a4{
+    text-decoration: none;
+    font-size: xx-large; 
+    border: 5px;
+    padding: 20px;
+    margin-left: 50px;
+ 
+ 
+flex-direction: column;
+ /* box-shadow: inset 0 0 10px; */
+ /* margin-top: 200px;} */}
+ #a5{
+    text-decoration: none;
+    font-size: xx-large; 
+    border: 5px;
+    padding: 20px;
+    margin-left: 50px;
+ 
+ 
+flex-direction: column;
+ /* box-shadow: inset 0 0 10px; */
+ /* margin-top: 200px;} */}
+ .div1{
+    background-color: rgb(245, 208, 220);
+    
+    width: 300px;
+    margin-left: 550px;
+    display: flex;
+    margin-top: 60px;
+ }
+ .div2{
+    background-color: rgb(197, 152, 239);
+    
+    width: 300px;
+    margin-left: 550px;
+    display: flex;
+    margin-top: 20px;
+ }
+ .div3{
+    background-color:rgb(159, 230, 159);
+    
+    width: 300px;
+    margin-left: 550px;
+    display: flex;
+    margin-top: 30px;
+ }
+ .div4{
+    background-color: rgb(137, 207, 233);
+    
+    width: 300px;
+    margin-left: 550px;
+    display: flex;
+    margin-top: 40px;
+ }
+ .div5{
+    background-color: rgb(242, 220, 181);
+    
+    width: 300px;
+    margin-left: 550px;
+    display: flex;
+    margin-top: 40px;
+ }
+ #a1:hover{
+   color: blue; 
+ }
+ #a2:hover{
+    color: blue; 
+  }
+  #a3:hover{
+    color: blue; 
+  }
+  #a4:hover{
+    color: blue; 
+  }
+  #a5:hover{
+    color: blue; 
+  }

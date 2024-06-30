@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+
+// var h1="Arrays"
+// document.write(h1+"<br>")
+
+//     //Q1
+//     var studentNames=["nazia","mehwish","manahil","noor"]
+//     document.write(studentNames+"<br>")
+
+//     //Q2
+
+//     var numbers =[2,3,4,5,6,7]
+//     document.write(numbers +"<br>")
+
+//     //Q3
+
+// var boolean=[true,false]
+
+// document.write(boolean +"<br>")
+
+// //Q4
+
+// var mixedArray=["nazia",89,true]
+// document.write(mixedArray +"<br>")
+
+// //Q5
+
+ var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+  for(i=0;i<=qualifications.length;i++){
+     document.write(qualifications[i]+"<br>")
+
+  }
+
+ //Q6
+ 
+ var student_names = ["Alice", "Bob", "Charlie"]
+ var student_scores = [450, 230, 350] 
+
+
+ var total_marks = 500
+  var percentages = (student_scores /total_marks) * 100;  
+
+var st1=450/500*100
+var st2=230/500*100
+var st3=350/500*100
+     document.write(student_names[0] +" "+"Obtained marks"+ student_scores[0]+" "+"percentage"+st1+"%"+"<br>")
+     document.write(student_names[1] +" " +"Obtained marks"+ student_scores[1]+" "+"percentage"+st2+"%"+"<br>")
+     document.write(student_names[2] +" " +"Obtained marks"+ student_scores[2]+" "+"percentage"+st3+"%"+"<br>"+"<br>")
+  
+
+//Q7
+//a
+//unshift
+
+var colours1=["red","blue","green","orange"]
+document.write(colours1 +"<br>")
+//added color to the beginning
+
+var colours=["red","blue","green","orange"]
+colours.unshift("purple")
+document.write(colours+"<br>"+"<br>")
+
+//b
+//push method
+var colours1=["red","blue","green","orange"]
+document.write(colours1 +"<br>")
+
+//added color to the end
+var colours=["red","blue","green","orange"]
+colours.push("purple")
+document.write(colours+"<br>"+"<br>")
+
+//c
+
+//pop method
+var colours1=["red","blue","green","orange"]
+document.write(colours1 +"<br>")
+//removed color in the end
+var colours=["red","blue","green","orange"]
+colours.pop()
+document.write(colours+"<br>"+"<br>")
+
+//d
+//shift method
+var colours1=["red","blue","green","orange"]
+document.write(colours1 +"<br>")
+
+//removed first color
+var colours=["red","blue","green","orange"]
+colours.shift()
+document.write(colours+"<br>"+"<br>")
+
+//e
+
+//splice method
+var fruits1 = ["Banana", "Cherry", "Grapes", "Peach"];
+fruits1.unshift("Apple");
+document.write(fruits1+"<br>")
+fruits1.splice(2,1,"mango","orange","strawberries")
+document.write(fruits1+"<br>"+"<br>")
+
+//f
+//slice method
+
+var students=["nazia","noor","mehwish","sara","saba"]
+document.write(students+"<br>")
+ var students5=students.slice(0,3)
+document.write(students5+"<br>"+"<br>")
+
+//Q8
+//Acending orders
+
+studentScores = [88, 92, 79, 93, 85, 75, 90]
+
+document.write("Score of students",studentScores+"<br>")
+
+studentScores.sort()
+
+document.write("Ordered Score of students", studentScores+"<br>"+"<br>")
+
+//Q9
+
+//string
+var pet="This is my cat."
+document.write(pet+"<br>")
+
+//Array
+
+var pet1=["this","is","my","cat"]
+document.write(pet1+"<br>"+"<br>")
+
+//Q10
+var rev1="((Order & Reverse Mehtod))"
+document.write(rev1+"<br>"+"<br>")
+
+var parts=["monitor","cpu","keyboard","mouse"]
+document.write(parts+"<br>"+"<br>")
+
+for(i=0;i<=parts.length;i++){
+  document.write(parts[i]+"<br>")
+
+}
+
+var rev2=""
+document.write(rev2+"<br>"+"<br>")
+
+var part1=["monitor","cpu","keyboard","mouse"]
+part1=part1.reverse()
+for(i=0;i<=part1.length;i++){
+  document.write(part1[i]+"<br>")}
+
+
+  </script>  
+
+</body>
+</html>

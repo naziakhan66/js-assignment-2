@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=script, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    //Q1
+    var num1 = prompt("enter a number")
+    var num2 = prompt("enter a number")
+            
+var result;
+            if (num1 > num2) {
+                result = "The larger number is " + num1;
+            } else if (num1 < num2) {
+                result = "The larger number is " + num2;
+            } else {
+                result = "Both numbers are equal.";
+            }
+            document.write(result);
+
+ //Q2
+var num=prompt("enter a number")
+
+    if (num >=5)
+        alert ("The number is positive.")
+    else if (num < 5)
+        alert("The number is negative.")
+    else{
+        alert( "The number is zero.")
+    }
+
+    //Q3
+
+var vowels=["a" ,"e","i","o","u"]
+    var char=prompt("enter a letter")
+    if(char===vowels){
+     alert(true)
+    }  
+  
+    
+  else(char!==vowels);{
+alert(false)
+  }
+
+
+//Q4
+
+           var correctPassword = "naziakhan";
+            
+            
+            var userPassword = prompt("Please enter your password:");
+            
+            
+            if (userPassword === null || userPassword === "") {
+            
+                alert("Please enter your password");
+            } 
+            
+            else if (userPassword === correctPassword) {
+            
+                alert("Correct! The password you entered matches the original password");
+            } else {
+                alert("Incorrect password");
+            }
+
+            //Q5
+
+            var hour=13
+            var time=prompt("enter hour")
+            if(time<13){
+                alert("good morning sir")
+
+            }
+            else{
+                alert("good evening sir")
+            }
+
+
+            
+
+
+
+  </script>  
+
+</body>
+</html>
